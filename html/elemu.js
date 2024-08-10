@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 * -------------------------------------------------------------------------- */
 function Elemu() {
 	this._webapi = null;
-	this._lang = 'ja';
+	this._lang = 'en';
 	this._eoj_list = [];
 	this._edt_value_data = {};
 	this._is_controller = false;
