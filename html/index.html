@@ -24,14 +24,14 @@
 				</h1>
 				<div class="d-inline-block float-right">
 					<!-- システム言語 -->
-					<!-- <select class="form-control-sm d-inline-block" v-model="lang" v-on:change="changeLang" v-if="lang === 'ja'">
+					<select class="form-control-sm d-inline-block" v-model="lang" v-on:change="changeLang" v-if="lang === 'ja'">
 						<option value="ja">日本語 (Japanese)</option>
 						<option value="en">英語 (English)</option>
 					</select>
 					<select class="form-control-sm d-inline-block" v-model="lang" v-on:change="changeLang" v-if="lang === 'en'">
 						<option value="ja">Japanese</option>
 						<option value="en">English</option>
-					</select> -->
+					</select>
 					<!-- WebSocket コネクション状態-->
 					<a class="btn">
 						<i class="fas fa-link" style="color:#00DD00;" v-if="wsStatus === true" title="WebSocket active"></i>
