@@ -485,7 +485,7 @@ Elemu.prototype.initViews = function () {
 		data: this.app_bind_data,
 		methods: {
 			changeLang: () => {
-				let lang = this.app_bind_data['lang'];
+				let lang = 'en';
 				this.setLang(lang);
 			},
 			changePowerStatus: (state) => {
