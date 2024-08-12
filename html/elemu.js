@@ -22,7 +22,7 @@ function Elemu() {
 	this.app = null;
 
 	this.app_bind_data = {
-		lang: 'ja',
+		lang: 'en',
 		powerStatus: false,
 		wsStatus: false
 	};
